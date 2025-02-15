@@ -1,0 +1,84 @@
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  margin: auto;
+  padding: 0px 10px;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  max-width: 1200px;
+  cursor: pointer;
+}
+.logo{
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+ color: black;
+}
+.logo img{
+  max-width: 50px;
+  margin-right: 5px;
+}
+.navigator .link{
+  padding: 10px;
+ 
+  color: black;
+}
+.navigator .link active{
+  background-color: rgba(255, 255, 255, 0.123);
+  border:1px solid black;
+}
+.items{
+  text-decoration: none;
+  color: black;
+}
+.Product{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  
+}
+.Productcard {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+   margin: 40px;
+  padding: 10px;
+  border: 2px solid black;
+  max-width: 350px
+
+  
+}.Productcard img{
+  display: flex;
+  justify-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 250px;
+}
+.Action{
+  display: flex;
+}
+.button{
+max-width: 100px;
+margin-left: 120px;
+padding: 5px;
+background-color: rgb(107, 107, 189);
+}
+.cart h1{
+ margin-left :50%
+}
+.cartcard{
+  margin: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 2px solid rgb(3, 9, 14);
+}
+.cartcard button{
+max-width: 100px;
+max-height: fit-content;
+margin: 30px;
+padding: 5px;
+background-color: rgb(160, 12, 12);
+}
